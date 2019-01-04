@@ -1,0 +1,10 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: Slava Kulpichev
+  description: Example role (global project variables, subtask loop variables)
+  company: ""
+  license: "private"
+  min_ansible_version: 2.5

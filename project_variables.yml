@@ -1,0 +1,5 @@
+---
+
+# @warn  INCLUDE_VARS, DO NOT USE TEMPLATING
+
+project_test_ports:  [ 6400, 6401, 6402 ]

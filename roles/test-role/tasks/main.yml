@@ -1,0 +1,6 @@
+---
+
+- include: tasks_per_port.yml
+  with_items: "{{ pv.project_test_ports }}"
+  loop_control:
+    loop_var: test_port

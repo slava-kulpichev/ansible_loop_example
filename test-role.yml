@@ -1,0 +1,12 @@
+---
+
+- hosts: localhost
+
+  pre_tasks:
+  - name: Include project variables
+    include_vars:
+      file: project_variables.yml
+      name: pv
+
+  roles:
+  - test-role
